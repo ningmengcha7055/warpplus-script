@@ -68,7 +68,7 @@ while True:
 		print(f"[#] {g}次成功 {b}次失败")
 		print("[*] 等待18秒，下一个请求即将发出")
 		bot.send_message(chat_id=chat_id, text=f"恭喜🎉 \n1GB流量已成功添加到{referrer}账户！\n{g}次成功 {b}次失败\nScript by ALIILAPRO modified by Misaka-blog")
-		time.sleep(1)
+		time.sleep(5)
 	else:
 		b = b + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
